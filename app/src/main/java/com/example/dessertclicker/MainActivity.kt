@@ -211,7 +211,7 @@ private fun DessertClickerApp(
                         end = WindowInsets.safeDrawing.asPaddingValues()
                             .calculateEndPadding(layoutDirection),
                     )
-                    .background(MaterialTheme.colorScheme.primary)
+                    .background(MaterialTheme.colorScheme.secondary)
             )
         }
     ) { contentPadding ->
